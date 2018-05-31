@@ -2,6 +2,8 @@
 
 Create and download **client_secret.json** from google API console.
 
+Change **setRedirectUri** parameter.
+
 Run code.
 
 ## Includes

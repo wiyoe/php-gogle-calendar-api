@@ -1,5 +1,9 @@
 # PHP Google Calendar API Example
 
+```php
+composer install
+```
+
 Create and download **client_secret.json** from google API console.
 
 Change **setRedirectUri** parameter.

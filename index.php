@@ -14,6 +14,8 @@ function getClient()
     $client->setApplicationName('WebDev');
     $client->setScopes(Google_Service_Calendar::CALENDAR);
     $client->setRedirectUri("http://localhost/gcalendar/");
+    //$client->setAccessType('offline');
+    //$client->setApprovalPrompt('force');
 
     // Load previously authorized credentials from a file.
     $credentialsPath = expandHomeDirectory('credentials.json');
